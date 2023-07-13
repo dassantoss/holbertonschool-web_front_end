@@ -1,32 +1,33 @@
 html {
 	scroll-behavior: smooth;
-}
-
-:root {
+  }
+  
+  :root {
 	--color-primary: #d73953;
 	--color-black: #090909;
 	--color-white: #ffffff;
 	--color-light-grey: #f3f3f3;
 	--color-dark-grey: #353535;
-	--text-color: color-black;
-}
-
-body {
+	--text-color: var(--color-black);
+  }
+  
+  body {
 	color: var(--text-color);
-}
-
-a {
+  }
+  
+  a {
 	color: var(--text-color);
-}
-
-.visually-hidden {
+  }
+  
+  .visually-hidden {
 	display: none;
-}
-
-.card-category {
+  }
+  
+  .card-category {
 	color: var(--color-primary);
-}
-
-.section-tagline {
+  }
+  
+  .section-tagline {
 	color: var(--color-primary);
-}
+  }
+  
