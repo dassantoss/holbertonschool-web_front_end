@@ -1,4 +1,4 @@
-/* Dark theme to sections */
+/*  Fix issues for dark theme */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -568,4 +568,16 @@ ul.row {
 
 .footer ul {
   text-align: right;
+}
+
+.footer-address {
+  color: var(--text-color);
+}
+
+.social-link {
+  display: block;
+}
+
+.social-link > svg {
+  fill: var(--text-color);
 }
